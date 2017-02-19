@@ -34,6 +34,7 @@ void dump_group(libsynt_group_info *g, FILE *outC, FILE *outH);
 void dump_attr(libsynt_attribute_info *a, FILE *outC, FILE *outH);
 
 #include <dirent.h>
+
 extern  libsynt_technology libsynt_techs[20];
 extern  int libsynt_tech_count;
 extern FILE *syntax_parser_in;
